@@ -1,0 +1,610 @@
+@charset "UTF-8";
+body {
+    background-color: rgba(169, 131, 251, 0.32);
+}
+/* CARD 01 - Plano Básico */
+figure.cartao01 {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    left: 150px;
+    top: 50px;
+    background: #F7E2E2;
+    border-radius: 20px 0px 0px 20px;
+}
+/* LOGOMARCA 01 */
+figure.cartao01 img {
+    position: absolute;
+    width: 150px;
+    height: 160px;
+    left: 80px;
+    top: 0px;
+}
+/* PLANO BÁSICO */
+div.cat h1 {
+    position: absolute;
+    left: 105px;
+    top: 140px;
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+/* 1º LISTA */
+div.cat h2 {
+    position: absolute;
+    left: 70px;
+    top: 205px;
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 24px;
+    color: #35353F;
+}
+/* ICONE 01 */
+.material-icons.md-16\.6 {
+    position: absolute;
+    font-size: 15px;
+    top: 221px;
+    left: 53px;
+}
+/* 2º LISTA */
+div.cat h3 {
+    position: absolute;
+    left: 70px;
+    top: 230px;
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 24px;
+    color: #35353F;
+}
+.material-icons.md-16\.5 {
+    position: absolute;
+    font-size: 15px;
+    top: 249px;
+    left: 53px;
+}
+/* DIVISOR 01 */
+.hr1 {
+    position: absolute;
+    width: 250px;
+    height: 0px;
+    left: 27px;
+    top: 300px;
+    border: 0;
+    border-top: 1px dashed #0B0914;
+}
+/* GRÁTIS */
+div.cat h4 {
+    position: absolute;
+    left: 109px;
+    top: 290px;
+    font-family: 'Inder', sans-serif;
+    align-content: center;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 40px;
+    color: #0B0914;
+}
+/* COMPRAR 01 */
+.btn {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 30px;
+    top: 380px;
+    background-color: #FF1D89;
+    box-shadow: 0px 12px 32px rgba(255, 29, 137, 0.5);
+    border-radius: 12px;
+    border-style: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btn:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+.btn-white {
+    font-family: 'Inder', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.material-icons-outlined {
+    position: absolute;
+    left: 40px;
+    top: 350px;
+}
+/* MAIS INFORMAÇÕES 01 */
+.btn2 {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 30px;
+    top: 430px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 32px rgba(255, 29, 137, 0.5);
+    border-radius: 12px;
+    border-style: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btn2:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+.btn2-pink {
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #FF1D89
+}
+
+
+
+/* Fundo rosa do CARD 02 */
+figure.cartao03 {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    left: 450px;
+    top: 50px;
+    background: #F7E2E2;
+}
+/* CARD 02 - Plano Avançado */
+.cartao02 {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    left: -5px;
+    top: -30px;
+    background: #0B0641;
+    border-radius: 20px;
+}
+/* LOGOMARCA 02 */
+figure.cartao03 img {
+    position: absolute;
+    width: 150px;
+    height: 160px;
+    left: 80px;
+    top: -20px;
+}
+/* PLANO AVANÇADO */
+figure.cartao03 h1 {
+    position: absolute;
+    left: 100px;
+    top: 104px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+/* LISTA 01 */
+figure.cartao03 h2 {
+    position: absolute;
+    left: 70px;
+    top: 147px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/*  ICONE 01 */
+.material-icons.white600.md-16\.1 {
+    position: absolute;
+    font-size: 15px;
+    top: 163px;
+    left: 50px;
+}
+.material-icons.white600 {
+    color: #FFFFFF;
+}
+/* LISTA 02 */
+figure.cartao03 h3 {
+    position: absolute;
+    left: 70px;
+    top: 175px;
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/* ICONE 02 */
+.material-icons.white600.md-16\.2 {
+    position: absolute;
+    font-size: 15px;
+    top: 193px;
+    left: 50px;
+}
+/* LISTA 03 */
+figure.cartao03 h4 {
+    position: absolute;
+    left: 70px;
+    top: 200px;
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/* ICONE 03 */
+.material-icons.white600.md-16\.3 {
+    position: absolute;
+    font-size: 15px;
+    top: 223px;
+    left: 50px;
+}
+/* LISTA 04 */
+figure.cartao03 h5 {
+    position: absolute;
+    left: 70px;
+    top: 225px;
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/* ICONE 04 */
+.material-icons.white600.md-16\.4 {
+    position: absolute;
+    font-size: 15px;
+    top: 252px;
+    left: 50px;
+}
+/* LISTA 05 */
+figure.cartao03 h6 {
+    position: absolute;
+    left: 70px;
+    top: 243px;
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/* ICONE 05 */
+.material-icons.white600.md-16\.5 {
+    position: absolute;
+    font-size: 15px;
+    top: 280px;
+    left: 50px;
+}
+/* DIVISOR 02 */
+.hr2 {
+    position: absolute;
+    width: 250px;
+    left: 27px;
+    top: 305px;
+    border: 0;
+    border-top: 1px dashed #FFFFFF;
+}
+/* VALOR BRUTO 01 */
+.bruto h1 {
+     position: absolute;
+     top: 355px;
+     left: 605px;
+     font-family: 'Inder', sans-serif;
+    font-weight: normal;
+     font-size: 13px;
+     color: #FFFFFF;
+     text-decoration-line: line-through;
+    opacity: 80%;
+}
+/* VALOR DESCONTADO 01 */
+.simbolo {
+    position: absolute;
+    top: 405px;
+    left: 575px;
+    font-family: 'Inder', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.valor {
+    position: absolute;
+    top: 386px;
+    left: 590px;
+    font-family: 'Inder', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.centavos {
+    position: absolute;
+    top: 408px;
+    left: 650px;
+    font-family: 'Inder', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+/* COMPRAR 02 */
+.btn3 {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 510px;
+    top: 430px;
+    background-color: #FF1D89;
+    box-shadow: 0px 2px 32px rgba(255, 29, 137, 0.5);
+    border-radius: 12px;
+    border-style: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btn3:hover {
+    -webkit-filter: drop-shadow(0px 30px 32px rgb(255, 255, 255));
+    filter: drop-shadow(0px 50px 20px rgb(0, 0, 0));
+}
+.btn3-white {
+    font-family: 'Inder', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* MAIS INFORMAÇÕES 02 */
+.btn4 {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 510px;
+    top: 480px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 32px rgba(255, 29, 137, 0.5);
+    border-radius: 12px;
+    border-style: none;
+    transition: all.5s;
+    cursor: pointer;
+}
+.btn4:hover {
+    -webkit-filter: drop-shadow(0px 30px 32px rgb(255, 247, 247));
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0));
+}
+.btn4-pink {
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #FF1D89
+}
+/* CARD 03 - Plano Intermediário */
+.cartao03 {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    left: 787px;
+    top: 66px;
+    background: #F7E2E2;
+    border-radius: 0px 20px 20px 0px;
+}
+/* LOGOMARCA */
+figure.cartao04 img {
+    position: absolute;
+    width: 150px;
+    height: 160px;
+    left: 70px;
+    top: -1px;
+}
+/* PLANO INTERMEDIÁRIO */
+.cartao03 h1 {
+    position: absolute;
+    left: 90px;
+    top: 140px;
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+/* LISTA 01 */
+.cartao03 h2 {
+    position: absolute;
+    left: 70px;
+    top: 180px;
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 24px;
+    color: #35353F;
+}
+/* ICONE 01 */
+.material-icons.md-16\.7 {
+    position: absolute;
+    font-size: 15px;
+    top: 196px;
+    left: 53px;
+}
+/* LISTA 02 */
+.cartao03 h3 {
+    position: absolute;
+    left: 70px;
+    top: 207px;
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 24px;
+    color: #35353F;
+}
+/* ICONE 02 */
+.material-icons.md-16\.8 {
+    position: absolute;
+    font-size: 15px;
+    top: 225px;
+    left: 53px;
+}
+/* LISTA 03 */
+.cartao03 h4 {
+    position: absolute;
+    left: 70px;
+    top: 230px;
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 24px;
+    color: #35353F;
+}
+/* ICONE 03 */
+.material-icons.md-16\.9 {
+    position: absolute;
+    font-size: 15px;
+    top: 253px;
+    left: 53px;
+}
+/* DIVISOR 03 */
+.hr3 {
+    position: absolute;
+    width: 250px;
+    height: 0px;
+    left: 27px;
+    top: 280px;
+    border: 0;
+    border-top: 1px dashed #0B0914;
+}
+/* VALOR BRUTO 02 */
+.bruto02 h1 {
+    position: absolute;
+    top: 288px;
+    left: 130px;
+    font-family: 'Inder', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    color: #000000;
+    text-decoration-line: line-through;
+    opacity: 80%;
+}
+/* VALOR DESCONTADO */
+.simbolo02 {
+    position: absolute;
+    top: 348px;
+    left: 100px;
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #000000;
+}
+.valor02 {
+    position: absolute;
+    top: 330px;
+    left: 120px;
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #000000;
+}
+.centavos2 {
+    position: absolute;
+    top: 350px;
+    left: 160px;
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    color: #000000;
+}
+/* COMPRAR 03 */
+.btn5 {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 30px;
+    top: 380px;
+    background-color: #FF1D89;
+    box-shadow: 0px 12px 32px rgba(255, 29, 137, 0.5);
+    border-radius: 12px;
+    border-style: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btn5:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+.btn5-white {
+    font-family: 'Inder', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* MAIS INFORMAÇÕES 03 */
+.btn6 {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 30px;
+    top: 430px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 32px rgba(255, 29, 137, 0.5);
+    border-radius: 12px;
+    border-style: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btn6:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+.btn6-pink {
+    font-family: 'Inder', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #FF1D89
+}
+html, body {
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(22, 5, 71, 1);
+    font-size: 12px;
+    color: #FFF;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    text-align: center;
+    line-height: 60px;
+}
+#google_translate_element {
+    display: none;
+}
+.goog-te-banner-frame {
+    display: none !important;
+}
+body {
+    position: static !important;
+    top: 0px !important;
+}
+.bandeira1 img {
+    position: absolute;
+    left: 1310px;
+    top: 10px;
+}
+.bandeira2 img {
+    position: relative;
+    left: 1310px;
+    top: 40px;
+}
+
+
+
