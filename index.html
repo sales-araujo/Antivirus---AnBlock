@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AnviBlock</title>
+    <link rel="shortcut icon" href="_imagens/icone.png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+    <div id="google_translate_element" class="boxTradutor"></div>
+
+    <a class="bandeira1" href="javascript:trocarIdioma('pt')"><img alt="portugues" src="_imagens/brasil.png"></a>
+    <a class="bandeira2" href="javascript:trocarIdioma('en')"><img alt="ingles" src="_imagens/estados-unidos.png"></a>
+
+    <script type="text/javascript">
+        var comboGoogleTradutor = null;
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'pt',
+                includedLanguages: 'en,pt',
+                layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+            }, 'google_translate_element');
+
+            comboGoogleTradutor = document.getElementById("google_translate_element").querySelector(".goog-te-combo");
+        }
+        function changeEvent(el) {
+            if (el.fireEvent) {
+                el.fireEvent('onchange');
+            } else {
+                var evObj = document.createEvent("HTMLEvents");
+
+                evObj.initEvent("change", false, true);
+                el.dispatchEvent(evObj);
+            }
+        }
+        function trocarIdioma(sigla) {
+            if (comboGoogleTradutor) {
+                comboGoogleTradutor.value = sigla;
+                changeEvent(comboGoogleTradutor);
+            }
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <figure class="cartao01">
+        <div class="cat">
+        <img src="_imagens/logo01e02.png"/>
+        <h1>Plano Básico</h1>
+         <h2>Antivírus em tempo real</h2>
+         <h3>Otimização de desempenho</h3>
+
+         <i class="material-icons md-16.6">verified</i>
+         <i class="material-icons md-16.5">verified</i>
+
+         <hr class="hr1">
+         <h4>Grátis</h4>
+         <button class="btn btn-white">COMPRAR</button>
+         <button class="btn2 btn2-pink">MAIS INFORMAÇÕES</button>
+        </div>
+    </figure>
+                <figure class="cartao03">
+    <div class="cartao02">
+        <img src="_imagens/logo03.png"/>
+        <h1>Plano Avançado</h1>
+        <h2>Antivírus em tempo real</h2>
+        <h3>Otimização de desempenho</h3>
+        <h4>Bloaqueador de anúncios</h4>
+        <h5>Proteção de Webcams</h5>
+        <h6>VPN inteligente e rápida</h6>
+
+        <i class="material-icons white600 md-16.1">verified</i>
+        <i class="material-icons white600 md-16.2">verified</i>
+        <i class="material-icons white600 md-16.3">verified</i>
+        <i class="material-icons white600 md-16.4">verified</i>
+        <i class="material-icons white600 md-16.5">verified</i>
+
+        <hr class="hr2">
+    </div>
+                </figure>
+        <div class="bruto">
+            <h1>R$199,90</h1>
+            <span class="simbolo">R$</span>
+            <span class="valor">119</span>
+            <span class="centavos">, 95 / anual</span>
+            <button class="btn3 btn3-white">COMPRAR</button>
+            <button class="btn4 btn4-pink">MAIS INFORMAÇÕES</button>
+        </div>
+        <figure class="cartao04">
+    <div class="cartao03">
+        <img src="_imagens/logo01e02.png">
+        <h1>Plano Intermediário</h1>
+        <h2>Antivírus em tempo real</h2>
+        <h3>Otimização de desempenho</h3>
+        <h4>Bloaqueador de anúncios</h4>
+
+        <i class="material-icons  md-16.7">verified</i>
+        <i class="material-icons  md-16.8">verified</i>
+        <i class="material-icons  md-16.9">verified</i>
+
+        <hr class="hr3">
+        <div class="bruto02">
+            <h1>R$149,90</h1>
+            <span class="simbolo02">R$</span>
+            <span class="valor02">89</span>
+            <span class="centavos2">, 95 / anual</span>
+            <button class="btn5 btn5-white">COMPRAR</button>
+            <button class="btn6 btn6-pink">MAIS INFORMAÇÕES</button>
+        </div>
+          </figure>
+     <footer>
+         Copyright &copy; 2022 - by Sales Araujo
+     </footer>
+</body>
+</html>
+
