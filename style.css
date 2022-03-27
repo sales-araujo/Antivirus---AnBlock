@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .center {
-    align-content: center;
+    margin: 0 auto;
 }
 body {
     background-color: rgba(169, 131, 251, 0.32);
