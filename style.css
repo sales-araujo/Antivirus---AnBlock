@@ -1,4 +1,7 @@
 @charset "UTF-8";
+:root {
+    --pink:#F7E2E2;
+}
 .center {
     margin: 0 auto;
 }
@@ -12,7 +15,7 @@ figure.cartao01 {
     height: 500px;
     left: 150px;
     top: 50px;
-    background: #F7E2E2;
+    background: var(--pink);
     border-radius: 20px 0px 0px 20px;
 }
 /* LOGOMARCA 01 */
