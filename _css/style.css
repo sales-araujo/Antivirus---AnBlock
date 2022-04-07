@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink-200: #f7e2e2;
+  --pink-400: #ff1d89;
+  --purple-400: #e3d7fd;
+  --blue-800: #160547;
+  --blue-900: #0b0641;
+  --white: #ffffff;
+  --black: #000000;
+
+  --text-color: var(--black);
+  --text-color-hl: var(--white);
+  --text-color-btn: var(--pink-400);
+
+  --bg-color: var(--purple-400);
+  --bg-card: var(--pink-200);
+  --bg-card-hl: var(--blue-900);
+  --bg-button: var(--pink-400);
+  --bg-button-hl: var(--white);
+  --bg-footer: var(--blue-800);
+
+  font-family: 'Inter', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-height: -webkit-calc(100vh - 100px);
+  min-height: -moz-calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
+}
+
+.pricing {
+  margin: 0;
+}
+
+.pricing .container {
+  display: flex;
+  background-color: var(--bg-card);
+  border-radius: 2rem;
+  position: relative;
+}
+
+/*======== 
+   Card
+=========*/
+.pricing .container .card {
+  width: 30rem;
+  height: 50rem;
+  background-color: var(--bg-card);
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Muda as cores do card do meio pra azul  */
+.pricing .container .card.card--bg-hl {
+  color: var(--text-color-hl);
+  background-color: var(--bg-card-hl);
+
+  transform: translateY(-3rem);
+}
+
+/*=========== 
+   Card Logo
+===========*/
+.pricing .container .card img {
+  width: 13rem;
+  height: 13rem;
+}
+
+.logo01 {
+  margin-left: 3rem;
+}
+
+/*============ 
+   Card Title
+============*/
+h2.card01 {
+  text-decoration: underline;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.pricing .container .card > h2 {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  line-height: 2.7rem;
+  text-decoration: underline;
+  margin-top: 0;
+  padding-bottom: .50rem;
+}
+
+/*================ 
+   Card descrição
+================*/
+li.desc01 {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: bolder;
+}
+
+li.desc02 {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: bolder;
+  padding-bottom: 4rem;
+}
+
+li.desc03 {
+  margin-top: 2rem;
+}
+
+.pricing .container .card > ul {
+  margin-top: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing .container .card > ul li {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  line-height: 2.4rem;
+}
+
+/*====================== 
+   Card preço container
+======================*/
+.pricing .container .card .price {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed #000;
+}
+
+.preco01 {
+  margin-top: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+/* Muda a cor da linha tracejada no card azul escuro */
+.pricing .container .card.card--bg-hl .price {
+  border-top: 1px dashed #fff;
+}
+
+.pricing .container .card .price p {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.pricing .container .card .price span,
+.pricing .container .card .price p span {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.pricing .container .card .price > span:nth-child(1) {
+  text-decoration: line-through;
+}
+
+/*======================== 
+   Card buttons container
+========================*/
+.pricing .container .card .btns-container {
+  width: 100%;
+}
+
+.pricing .container .card .btns-container .btn {
+  width: 100%;
+  display: block;
+  color: var(--text-color-hl);
+  background-color: var(--bg-button);
+
+  font-size: 1.4rem;
+  line-height: 4rem;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+
+  border-radius: 1.2rem;
+  box-shadow: 6px 6px 10px rgba(255, 29, 137, 0.5);
+  margin-top: 1rem;
+  transition: all .5s;
+}
+
+.pricing .container .card .btns-container .btn:hover {
+  -webkit-filter: drop-shadow(5px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(5px 2px 5px rgba(0,0,0,.5));
+}
+
+/* Muda a cor do hover do card azul escuro */
+.pricing .container .card.card--bg-hl .btns-container .btn:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.pricing .container .card .btns-container .btn.btn--hl {
+  font-weight: 700;
+  color: var(--text-color-btn);
+  background-color: var(--bg-button-hl);
+}
+
+#google_translate_element {
+  display: none;
+}
+.goog-te-banner-frame {
+  display: none !important;
+}
+body {
+  position: static !important;
+  top: 0px !important;
+}
+.bandeira1 img {
+  position: absolute;
+  left: 1rem;
+  top: 10px;
+}
+.bandeira2 img {
+  position: static;
+  align-items: flex-start;
+  padding-left: 1rem;
+  padding-top: 4rem;
+}
+
+footer {
+  width: 100vw;
+  display: inline-block;
+  color: var(--text-color-hl);
+  background-color: var(--bg-footer);
+
+  font-size: 1.2rem;
+  text-align: center;
+
+  padding:  .55rem;
+  margin-top: 0;
+}
+
+

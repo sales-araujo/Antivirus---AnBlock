@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;500&display=swap"rel="stylesheet">
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
+    <link rel="stylesheet" href="./_css/style.css">
+    <link rel="stylesheet" href="./_css/responsive.css">
     <title>AnviBlock</title>
-    <link rel="shortcut icon" href="_imagens/icone.png" sizes="16x16">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <div class= "center">
-        <div id="google_translate_element" class="boxTradutor"></div>
+    <div id="google_translate_element" class="boxTradutor"></div>
 
     <a class="bandeira1" href="javascript:trocarIdioma('pt')"><img alt="portugues" src="_imagens/brasil.png"></a>
-    <a class="bandeira2" href="javascript:trocarIdioma('en')"><img alt="ingles" src="_imagens/estados-unidos.png"></a>
+    <a class="bandeira2" href="javascript:trocarIdioma('en')"><img alt="ingles" src="_imagens/estados-unidos.png"><a>
 
     <script type="text/javascript">
         var comboGoogleTradutor = null;
@@ -45,78 +49,65 @@
     </script>
     <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     
-    <figure class="cartao01">
-        <div class="cat">
-            <img src="_imagens/logo01e02.png"/>
-                <h1>Plano Básico</h1>
-                    <h2>Antivírus em tempo real</h2>
-                        <h3>Otimização de desempenho</h3>
-
-         <i class="material-icons md-16.6">verified</i>
-         <i class="material-icons md-16.5">verified</i>
-
-         <hr class="hr1">
-         
-            <h4>Grátis</h4>
-                <button class="btn btn-white">COMPRAR</button>
-                    <button class="btn2 btn2-pink">MAIS INFORMAÇÕES</button>
-        </div>
-    </figure>
-      
-    <figure class="cartao03">
-        <div class="cartao02">
-            <img src="_imagens/logo03.png"/>
-                <h1>Plano Avançado</h1>
-                    <h2>Antivírus em tempo real</h2>
-                        <h3>Otimização de desempenho</h3>
-                            <h4>Bloaqueador de anúncios</h4>
-                                <h5>Proteção de Webcams</h5>
-                                    <h6>VPN inteligente e rápida</h6>
-
-        <i class="material-icons white600 md-16.1">verified</i>
-        <i class="material-icons white600 md-16.2">verified</i>
-        <i class="material-icons white600 md-16.3">verified</i>
-        <i class="material-icons white600 md-16.4">verified</i>
-        <i class="material-icons white600 md-16.5">verified</i>
-
-        <hr class="hr2">
+        <main>
+            <section class="pricing">
+            <div class="container">
+                <div class="card">
+                <img src="./_imagens/logo01e02.png" alt="AnviBlock Logo"  class="logo01">
+                <h2 class="card01">Plano Básico</h2>
+                <ul>
+                    <li class="desc01">Antivírus em tempo real</li>
+                    <li class="desc02">Otimização de desempenho</li>
+                </ul>
+                <div class="price">
+                    <p class="preco01">Grátis</p>
+                </div>  
+                <div class="btns-container">
+                    <a href="#" class="btn">Comprar</a>
+                    <a href="#" class="btn btn--hl">Mais informações</a>
+                </div>
+                </div>
+    
+                <div class="card card--bg-hl">
+                <img src="./_imagens/logo03.png" alt="AnviBlock Logo">
+                <h2>Plano Avançado</h2>
+                <ul>
+                    <li>Antivírus em tempo real</li>
+                    <li>Otimização de desempenho</li>
+                    <li>Bloaqueador de anúncios</li>
+                    <li>Proteção de Webcams</li>
+                    <li>VPN inteligente e rápida</li>
+                </ul>
+                <div class="price">
+                    <span>R$199,90</span>
+                    <p><span>R$</span>119<span>,95 /anual</span></p>
+                </div>
+                <div class="btns-container">
+                    <a href="#" class="btn">Comprar</a>
+                    <a href="#" class="btn btn--hl">Mais informações</a>
+                </div>
+                </div>
+    
+                <div class="card">
+                <img src="./_imagens/logo01e02.png" alt="AnviBlock Logo" />
+                <h2>Plano Intermediário</h2>
+                <ul>
+                    <li class="desc03">Antivírus em tempo real</li>
+                    <li class="desc04">Otimização de desempenho</li>
+                    <li class="desc05">Bloaqueador de anúncios</li>
+                </ul>
+                <div class="price">
+                    <span>R$149,90</span>
+                    <p><span>R$</span>89<span>,95 /anual</span></p>
+                </div>
+                <div class="btns-container">
+                    <a href="#" class="btn">Comprar</a>
+                    <a href="#" class="btn btn--hl">Mais informações</a>
+                </div>
+                </div>
             </div>
-                </figure>
-                    <div class="bruto">
-                        <h1>R$199,90</h1>
-                            <span class="simbolo">R$</span>
-                                <span class="valor">119</span>
-                                    <span class="centavos">, 95 / anual</span>
-                                        <button class="btn3 btn3-white">COMPRAR</button>
-                                            <button class="btn4 btn4-pink">MAIS INFORMAÇÕES</button>
-              </div>
-        <figure class="cartao04">
-            <div class="cartao03">
-                <img src="_imagens/logo01e02.png"/>
-                    <h1>Plano Intermediário</h1>
-                        <h2>Antivírus em tempo real</h2>
-                            <h3>Otimização de desempenho</h3>
-                                <h4>Bloaqueador de anúncios</h4>
-
-        <i class="material-icons  md-16.7">verified</i>
-        <i class="material-icons  md-16.8">verified</i>
-        <i class="material-icons  md-16.9">verified</i>
-
-        <hr class="hr3">
-        
-                <div class="bruto02">
-                    <h1>R$149,90</h1>
-                        <span class="simbolo02">R$</span>
-                             <span class="valor02">89</span>
-                                <span class="centavos2">, 95 / anual</span>
-                                    <button class="btn5 btn5-white">COMPRAR</button>
-                                        <button class="btn6 btn6-pink">MAIS INFORMAÇÕES</button>
-        </div>
-          </figure>
-     <footer>
-         Copyright &copy; 2022 - by Sales Araujo
-     </footer>
-        </div>           
+            </section>
+        </main>
+      <footer>Copyright © 2022 - by Sales Araujo</footer>
     </body>
 </html>
-
