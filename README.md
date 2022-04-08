@@ -18,7 +18,7 @@
 #
 <h3>Descrição do projeto:</h3>
 <p>👉 O projeto foi construido de forma autoral, seja no layout do site como na estrutura dos códigos, e nele vem ilustrando uma tabela de preços referente à um 
-  suposto antívirus, cujo nome fictício é AnviBlock, e com esse antivírus vem demonstrando os preços e suas respectivas utilidades para cada plano da tabela. Na estrutura do site está em formato desktop, mas com a evoulução dos meus estudos irei realizar uma atualização para um design responsivo para cada aparelho eletrônico, e com isso formalizo como meu primeiro projeto no GITHUB.</p>
+  suposto antívirus, cujo nome fictício é AnviBlock, e com esse antivírus vem demonstrando os preços e suas respectivas utilidades para cada plano da tabela. E com isso formalizo como meu primeiro projeto no GITHUB.</p>
 
 #
 
