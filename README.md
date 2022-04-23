@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" width= "200" src="https://github.com/sales-araujo/antivirusAnviBlock/blob/main/assets/img/icone.png?raw=true">  
+<img align="center" width= "200" src="https://github.com/sales-araujo/antivirusAnviBlock/blob/main/assets/img/logo01e02.png?raw=true">  
 </p>  
 
 #  
